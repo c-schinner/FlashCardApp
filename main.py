@@ -7,8 +7,6 @@ current_card = {}
 to_learn = {}
 
 
-# Change the Flash Cards to a python FLash card game, to help remember and relearn concepts and information! #
-
 try:
     data = pandas.read_csv("./data/words_to_learn.csv")
 except FileNotFoundError:
